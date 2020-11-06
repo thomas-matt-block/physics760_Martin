@@ -1,0 +1,5 @@
+TODO-List:
+-Since we work with units where kB = 1, what are the relevant dimensionless ratios in this problem?
+-attempt to estimate the error of your estimate
+    -maybe compare analytical with simulation
+-Compare your numerical results to the exact solution to the “infinite volume” (also known as the “thermodynamic limit”)
