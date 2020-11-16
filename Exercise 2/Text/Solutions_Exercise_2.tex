@@ -1,0 +1,77 @@
+\documentclass[english]{scrartcl} 
+
+\KOMAoptions{fontsize=11pt,paper=a4}
+\KOMAoptions{DIV=14}
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+\usepackage{listings}
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+		language=Python,
+		basicstyle=\ttm,
+		otherkeywords={self},             % Add keywords here
+		keywordstyle=\ttb\color{deepblue},
+		emph={MyClass,__init__},          % Custom highlighting
+		emphstyle=\ttb\color{deepred},    % Custom highlighting style
+		stringstyle=\color{deepgreen},
+		frame=tb,                         % Any extra options here
+		showstringspaces=false            % 
+}}
+\usepackage{cancel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[varg]{txfonts}
+\usepackage{booktabs}
+\usepackage{biblatex}
+\usepackage{url}
+\usepackage{subfigure}
+\usepackage{MnSymbol}
+%\usepackage[round]{natbib} %ist für Zitate
+\newcommand{\Int}{\int\limits}
+\setlength{\parindent}{0pt}
+\bibliography{ref}
+\graphicspath{{Bilder/}}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{xcolor} % for setting colors
+
+% set the default code style
+\lstset{
+	frame=tb, % draw a frame at the top and bottom of the code block
+	tabsize=4, % tab space width
+	showstringspaces=false, % don't mark spaces in strings
+	numbers=left, % display line numbers on the left
+	commentstyle=\color{green}, % comment color
+	keywordstyle=\color{blue}, % keyword color
+	stringstyle=\color{red} % string color
+}
+
+\pagestyle{fancy}
+\fancyhf{Martin Gräf, Richard Baumann and Thomas Block}
+\rhead{Exercise sheet 2}
+\lhead{Computational Physics}
+\rfoot{Page \thepage}
+\lfoot{\today}
+
+\begin{document}
+	
+Hallo
+	
+	
+\end{document}

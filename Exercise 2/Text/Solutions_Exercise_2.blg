@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'Solutions_Exercise_2.blg'
+[89] biber-MSWIN64:322> INFO - === 
+[121] Biber.pm:415> INFO - Reading 'Solutions_Exercise_2.bcf'
+[242] Biber.pm:943> INFO - Found 0 citekeys in bib section 0
+[250] Utils.pm:304> WARN - The file 'Solutions_Exercise_2.bcf' does not contain any citations!
+[265] bbl.pm:652> INFO - Writing 'Solutions_Exercise_2.bbl' with encoding 'UTF-8'
+[265] bbl.pm:755> INFO - Output to Solutions_Exercise_2.bbl
+[266] Biber.pm:128> INFO - WARNINGS: 1
